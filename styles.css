@@ -1,0 +1,32 @@
+html {
+    height: 1600px;
+    width: min-content;
+}
+.header_container{
+    background-color: #1f2937;
+    width:100%; height: 500px;
+    position: absolute; top:0cqmin; right:0cqmin;
+}
+.pic_container{
+    background-color: white;
+    width:100%; height: 400px;
+    position: absolute; top: 500px; right:0cqmin;
+}
+.quote_container{
+    background-color: #e5e7e5EB;
+    width: 100%; height: 400px;
+    position: absolute; top: 900px; right:0cqmin;
+}
+.sup_container{
+    background-color: white;
+    width: 100%; height: 300px;
+    position: absolute; top: 1300px; right:0cqmin;
+}
+.footer_container{
+    background-color: #1f2937;
+    width: 100%; height: 100px;
+    position: absolute; top: 1600px; right:0cqmin;
+}
+
+
+

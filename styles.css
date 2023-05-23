@@ -1,6 +1,7 @@
 html{
     height: auto;
-    width: min-content;
+    width:min-content;
+    overflow-x:hidden;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -78,7 +79,6 @@ li{
     padding: 100px 165px;
     right: -1100px;
     top: -200px;
-
 }
 
 .pic_container{
@@ -96,11 +96,57 @@ li{
     top: 25px;
 }
 
-.pictures{
+.pic_1, .pic_2, .pic_3, .pic_4{
+    right: -550px;
+}
+
+.pic_1{
     position: relative;
-    white-space: nowrap;
     border-style: solid;
-    border: #3882F6;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    height: 150px;
+    width: 150px;
+    top: 50px;
+}
+
+.pic_2{
+    position: relative;
+    border-style: solid;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    height: 150px;
+    width: 150px;
+    top: 50px;
+}
+
+.pic_3{
+    position: relative;
+    border-style: solid;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    height: 150px;
+    width: 150px;
+    top: 50px;
+}
+
+.pic_4{
+    position: relative;
+    border-style: solid;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    height: 150px;
+    width: 150px;
+    top: 50px;
+}
+
+
+.pic{
+    position: relative;
+    text-align: center;
+    width: 150px;
+    top: 50px;
+    right: -550px;  
 }
 
 .quote_container{
@@ -112,7 +158,7 @@ li{
 .quote_container p{
     font-size: 36px;
     margin: auto;
-    width: 850px;
+    width: 825px;
     position: relative;
     top: 150px;
     display: flex;
@@ -120,14 +166,14 @@ li{
 }
 
 .quote_container h1{
-font-size: 25px;
-margin: 0;
-position: relative;
-display: flex;
-justify-content: center;
-flex-wrap: nowrap;
-top: 150px;
-left: 275px;
+    font-size: 25px;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    top: 150px;
+    left: 250px;
 }
 
 .sup_container{
@@ -138,9 +184,60 @@ left: 275px;
 
 .footer_container{
     background-color: #1f2937;
-    width: 100%; height: 50px;
+    width: 100%; height: 100px;
     position: absolute; top: 1700px; right:0cqmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.sup_box{
+    background-color: #3882F6;
+    position: relative;
+    width: 1100px;
+    height: 150px;
+    top: 1075px;
+    left: 400px;
+    border-radius: 12px;
+}
+
+.sup_box h1{
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 35px;
+    font-size: 24px;
+}
+
+.sup_box p{
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 60px;
+    font-size: 18px;
+}
+
+.button_2{
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    border-color: white;
+    background-color: #3882F6;
+    color: white;
+    width: 150px;
+    height: 35px;
+    position: absolute;
+    right: 150px;
+    top: 55px;
+    border-style: solid;
+}
+
+.copy{
+    color: white;
+    position: absolute;
+}
+   
+
 
 
 
